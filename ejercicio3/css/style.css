@@ -1,0 +1,94 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f8ff;
+    text-align: center;
+}
+
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+
+#tarea {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    margin-right: 10px;
+    border: 2px solid #bdc3c7;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+#tarea:focus {
+    border-color: #3498db;
+}
+
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    color: white;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+}
+
+
+#lista {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    width: 400px;
+    text-align: left;
+}
+
+
+#lista li {
+    background: #ecf0f1;
+    margin: 10px 0;
+    padding: 10px 15px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#lista li:hover {
+    background-color: #d5eaf0;
+    transform: translateY(-3px);
+}
+
+
+#lista li span {
+    color: #e74c3c;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+#lista li span:hover {
+    color: #c0392b;
+}
